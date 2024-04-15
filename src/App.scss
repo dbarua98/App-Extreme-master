@@ -1,0 +1,85 @@
+// @use 'devextreme/scss/widgets/material/colors' with ($color: 'teal', $mode: 'light');
+// @use 'devextreme/scss/widgets/material/textbox' with ($color:" #0000ff", $mode: 'light');
+// @use "devextreme/scss/widgets/generic/icons";
+// @use "devextreme/scss/widgets/material/colors" with ($color: "carmine");
+// @use 'devextreme/scss/bundles/dx.material.teal.dark.compact.scss';
+// @use "devextreme/scss/widgets/material/colors" with ($color: "teal", $mode: "dark");
+@use "devextreme/scss/widgets/generic/colors" as genericColors with ($color: "carmine");
+@use "devextreme/scss/widgets/generic/sizes" with ($size: "default");
+@use "devextreme/scss/widgets/generic/typography";
+@use "devextreme/scss/widgets/generic/icons";
+@use "devextreme/scss/widgets/generic/widget";
+@use "devextreme/scss/widgets/generic/card";
+@use "devextreme/scss/widgets/generic/fieldset";
+@use "devextreme/scss/widgets/generic/common";
+@use "devextreme/scss/widgets/base/resizable";
+@use "devextreme/scss/widgets/base/draggable";
+@use "devextreme/scss/widgets/base/ui";
+@use "devextreme/scss/widgets/generic/button";
+@use "devextreme/scss/widgets/generic/datagrid";
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dx-master-detail-row{
+  /* border: 2px solid black !important; */
+  /* display: flex;  */
+  /* margin-left: 100px !important; */
+  
+   /* width:fit-content!important;  */
+
+}
+.dx-datagrid-drag-action{
+  text-align: left !important;
+}
+.dx-column-indicators{
+  float: right !important;
+}
+
+.navLink {
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: black; 
+}
